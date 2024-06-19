@@ -27,7 +27,7 @@ function convertToCelsius(fahren) {
 function createMessage(fahren, celc) {
    let message = '';
   
-   if( fahren <= 32){67
+   if( fahren <= 32){
     message ='very cold ' 
    }else if(fahren <= 64){
     message ='cold' 
